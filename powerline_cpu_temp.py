@@ -10,7 +10,7 @@ def cpu_temp(pl, format="{value:.0f}°C", threshold_good=50, threshold_bad=90):
         value will have this gradient level.
     :param float threshold_bad:
         threshold for gradient level 100: temperature  above this
-        value will have this gradient level. Load averages between
+        value will have this gradient level. Temperature between
         ``threshold_good`` and ``threshold_bad`` receive gradient level that
         indicates relative position in this interval:
         (``100 * (cur-good) / (bad-good)``).
