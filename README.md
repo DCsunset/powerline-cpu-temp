@@ -1,5 +1,8 @@
 # powerline-cpu-temp
 
+[![PyPI](https://img.shields.io/pypi/v/powerline-cpu-temp)](https://pypi.org/project/powerline-cpu-temp/)
+[![GitHub](https://img.shields.io/github/license/DCsunset/powerline-cpu-temp)](https://github.com/DCsunset/powerline-cpu-temp)
+
 `powerline-cpu-temp` is a Powerline segment to show CPU temperature.
 
 ## Installation
