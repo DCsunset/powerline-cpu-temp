@@ -1,6 +1,6 @@
 import psutil
 
-def cpu_temp(pl, format="{value:.0f}", threshold_good=50, threshold_bad=90):
+def cpu_temp(pl, format="{value:.0f}°C", threshold_good=50, threshold_bad=90):
     '''Return cpu temperature.
 
     :param str format:
